@@ -18,11 +18,11 @@ a {
 /* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, #1A1F2C 0%, #9B87F5 100%);
-  min-height: 100vh;
+  min-height: 65vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 10%;
+  padding: 80px 10% 240px;
   position: relative;
 }
 
@@ -68,8 +68,11 @@ a {
 /* Features Section */
 .features {
   padding: 80px 20px;
+  margin-top: -160px;
   text-align: center;
   background-color: #F8F7FF;
+  position: relative;
+  border-radius: 40px 40px 0 0;
 }
 
 .features h2 {
@@ -221,9 +224,8 @@ a {
   }
 
   .hero-section {
-    padding: 0 5%;
-    text-align: center;
-    justify-content: center;
+    min-height: 60vh;
+    padding: 60px 5% 200px;
   }
 
   .hero-content {
@@ -238,6 +240,11 @@ a {
     font-size: 1.1rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .features {
+    margin-top: -120px;
+    border-radius: 30px 30px 0 0;
   }
 }
 
